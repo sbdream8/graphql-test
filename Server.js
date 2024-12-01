@@ -1,5 +1,7 @@
 import { ApolloServer, gql } from 'apollo-server';
-import Mongoose from 'mongoose';
+import mongoose from 'mongoose';
+const mongoose = require('mongoose');
+const { Schema } = mongoose;
 
 const userSchema = new Schema({
     firstName: String,
