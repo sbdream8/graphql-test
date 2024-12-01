@@ -1,12 +1,10 @@
 {
-  "type": "module",
   "name": "graphql-test",
   "version": "1.0.0",
   "description": "",
- "main": "server.js",
+  "main": "index.js",
   "scripts": {
-    "dev": "nodemon server.js"
-
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
@@ -15,10 +13,8 @@
     "apollo-server": "^3.13.0",
     "graphql": "^16.9.0",
     "mongodb": "^6.11.0"
-    
   },
   "devDependencies": {
     "nodemon": "^3.1.7"
   }
-  
 }
